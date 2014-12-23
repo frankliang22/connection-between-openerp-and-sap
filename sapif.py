@@ -49,16 +49,16 @@ class sapif(osv.Model):
         return res
         
 
-    def _for_test(self, cr, uid, ids, field_names, arg, context=None):
-        res = {}
-        for i in self.browse(cr,uid,ids,context=context): 
-            p = subprocess.Popen(['python','/opt/openerp/openerp/addons/sap/basic.py'],stdout=subprocess.PIPE,shell=False)
-            stdout = p.communicate()[0]
-            string = str(stdout)
-            string = string.replace("{","")
-            string = string.replace("}","")
-            res[i.id] = string
-        return res
+   # def _for_test(self, cr, uid, ids, field_names, arg, context=None):
+       # res = {}
+       # for i in self.browse(cr,uid,ids,context=context): 
+           # p = subprocess.Popen(['python','/opt/openerp/openerp/addons/sap/basic.py'],stdout=subprocess.PIPE,shell=False)
+           # stdout = p.communicate()[0]
+           # string = str(stdout)
+           # string = string.replace("{","")
+           # string = string.replace("}","")
+           # res[i.id] = string
+       # return res
 
    
     _columns = {
