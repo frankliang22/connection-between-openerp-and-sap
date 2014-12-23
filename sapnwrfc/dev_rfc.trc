@@ -1,0 +1,7 @@
+
+**** Trace file opened at 2014-11-04, 09:44:30 CST
+ RFC library: 711, Current working directory: /root/sapnwrfc, Program: python
+ Hardware: AMD/Intel x86_64 with Linux x86_64, Operating_system: Linux 3.13.0-39-generic, Kernel_release: 711 patchlevel 10
+ Hostname: frank-ThinkPad-Edge-E431, IP address: 127.0.1.1, IP address_v6: 127.0.1.1
+
+A dynamically specified column name is unknown.

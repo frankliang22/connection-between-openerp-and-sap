@@ -1,0 +1,55 @@
+<openerp>
+    <data>
+
+      <record model="ir.actions.act_window" id="sapif_list_action">
+          <field name="name">SAPIF</field>
+	  <field name="res_model">sapif.part1</field>
+	  <field name="view_type">form</field>
+	  <field name="view_mode">tree,form</field>
+          <field name="help" type="html">
+		  <p class="oe_view_nocontent_create">Create a new Information</p>
+					
+		       </field>
+      </record>
+
+        <record model="ir.ui.view" id="sapif_form_view">
+             <field name="name">sapif.form</field>
+	     <field name="model">sapif.part1</field>
+	     <field name="arch" type="xml" >
+                <form string="SAPIF">
+                  <group>
+                   <field name="material" />
+                   <field name="industry_sector" />
+                   <field name="material_type" />
+                   <field name="change_number" />
+                   <field name="test" />
+                   <field name="newfield" />
+                  </group>
+                   <group string="Copy from....">
+                      <field name="x_material" />
+                   </group> 
+                 </form>
+                </field>
+               </record>
+
+      <record model="ir.ui.view" id="sapif_tree_view">
+      <field name="name">sapif.tree</field>
+      <field name="model">sapif.part1</field>
+      <field name="arch" type="xml">
+        <tree string="SAPIF" editable="top">
+          <field name="material" />
+          <field name="industry_sector" />
+          <field name="material_type" />
+          <field name="change_number" />
+          <field name="test" />
+          <field name="x_material" /> 
+        </tree>
+      </field>
+    </record>
+          <menuitem id="main_sapif_menu" name="SAPIF" />
+          <menuitem id="sapif1_menu" name="SAPIF" parent="main_sapif_menu" />
+          <menuitem id="sapif2_menu" name="SAPIF" parent="sapif1_menu" action="sapif_list_action" />
+    
+    </data>
+</openerp>
+

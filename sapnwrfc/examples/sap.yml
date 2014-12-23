@@ -1,0 +1,8 @@
+ashost: 10.6.202.65
+sysnr: "00"
+client: "100"
+user: developer
+passwd: developer
+lang: EN
+trace: 3
+loglevel: warn

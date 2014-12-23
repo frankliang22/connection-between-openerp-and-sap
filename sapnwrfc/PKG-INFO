@@ -1,0 +1,78 @@
+Metadata-Version: 1.0
+Name: sapnwrfc
+Version: 0.10
+Summary: SAP NetWeaver R/3 RFC Connector for Python
+Home-page: http://www.piersharding.com/download/python/sapnwrfc/
+Author: Piers Harding
+Author-email: piers@ompka.net
+License: GLPL v2.1
+Description: 
+        sapnwrfc - A Python RFC interface to SAP NetWeaver R/3 systems
+        --------------------------------------------------------------
+        
+        Copyright (C) Piers Harding 2006 - 2009, All rights reserved
+        
+        == Summary
+        
+        Welcome to the sapnwrfc Python module.
+        This module is intended to facilitate RFC calls to an SAP R/3
+        system of release 4.6x and above.
+        It may work for earlier versions but it hasn't been tested.
+        The fundamental purpose of the production of this package, is
+        to provide a clean object oriented interface to RFC calls from
+        within Python.  This will hopefully have a number of effects:
+        (1) make it really easy to do RFC calls to SAP from Python in
+        an object oriented fashion (Doh!)
+        (2) promote Python as the interface/scripting/glue language of
+        choice for interaction with SAP R/3.
+        (3) make the combination of Linux, Apache, and Python the killer
+        app for internet connectivity with SAP.
+        (4) Establish a small fun open source project that people are
+        more than welcome to contribute to, if they so wish.
+        
+        == Prerequisites:
+        Tested on Microsoft Windows XP SP3. Vista User Access Control
+        (UAC) should prompt for UAC elevation if Python was installed
+        for all users;not tested.
+        
+        Please insure that the following software is installed:
+        
+        Python 2.6:
+        (Tested with ActivePython 2.6.2.2
+        based on Python 2.6.2 (r262:71600, Apr 21 2009, 15:05:37)
+        [MSC v.1500 32 bit (Intel)])
+        This can be found at: http://www.activestate.com/activepython/
+        
+        PyYAML: (Tested with PyYAML-3.08.win32-py2.6.exe)
+        This can be found at: http://pyyaml.org/wiki/PyYAML .
+        
+        == Installation:
+        Follow the installation wizard.
+        
+        == Post Installation:
+        Add the sap nwrfcsdk library path to windows system PATH
+        environment variable. The library cannot be distributed
+        for licensing reasons. Should be obtained from SAP through
+        its Service MarketPlace (http://service.sap.com/swdc)
+        
+        
+        == Bugs:
+        I appreciate bug reports and patches, just mail me! piers@ompka.net
+        For issues regarding this windows installer please mail also
+        Menelaos Maglis at mmaglis@metacom.gr
+        
+        sapnwrfc is Copyright (c) 2006 - 2009 Piers Harding.
+        It is free software; you can redistribute it and/or
+        modify it under the terms of the GNU Lesser General Public
+        License as published by the Free Software Foundation; either
+        version 2 of the License, or (at your option) any later version.
+        
+        This library is distributed in the hope that it will be useful,
+        but WITHOUT ANY WARRANTY; without even the implied warranty of
+        MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+        Lesser General Public License for more details.
+        
+        A copy of the GNU Lesser General Public License (version 2.1)
+        can be found at http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html
+        
+Platform: UNKNOWN
